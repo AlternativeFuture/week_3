@@ -17,7 +17,7 @@ public class reminderMethod10 {
     public static double reminder(int value, int naturalNUmber) {
         int sum = 0;
         while (value != 0) {
-            sum += value % 10;
+            sum += value % naturalNUmber;
             value /= 10;
         }
         return sum % 5;
@@ -25,7 +25,7 @@ public class reminderMethod10 {
 
     public static void start() {
 
-        System.out.println(reminder(331));
+        System.out.println((reminder(331)));
         System.out.println(reminder(331,5));
     }
 }
