@@ -1,6 +1,6 @@
 package Day_14;
 
-public class practical01 {
+public class Practical01 {
     public static void main(String[] args) {
         System.out.println(sum(3));
     }
